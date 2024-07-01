@@ -1,4 +1,4 @@
-export class FileService    {
+export class FileBasicService {
     extractTrigramFromFileName(filename: string)    {
         if (filename === null || filename === undefined || filename.length === 0) {
             return undefined;
